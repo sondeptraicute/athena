@@ -165,7 +165,7 @@ def main():
 	for pkg in pkgs:
 		ur_mom = which(pkg)
 		if ur_mom == None:
-			VDH_TOOL.styleText(f"❌ {pkg} Chưa Cài Đặt?\n")
+			PTS_TOOL.styleText(f"❌ {pkg} Chưa Cài Đặt?\n")
 			install = False
 		else:
 			pass
@@ -174,16 +174,16 @@ def main():
 	else:pass
 	try:
 		script = True
-		with open('vdh') as important:pass
+		with open('pts') as important:pass
 	except IsADirectoryError:pass
 	except FileNotFoundError:
-		print(f"{Color.LR}[LỖI]:{Color.RESET} File: 'vdh' NotFound")
-		print("\nLàm Ơn -> git clone: https://github.com/Vihungdepzai/Love-Tool.git\n")
+		print(f"{Color.LR}[LỖI]:{Color.RESET} File: 'pts' NotFound")
+		print("\nLàm Ơn -> git clone: https://github.com/sondeptraicute/athenaddos.git\n")
 		os.remove(f'{__file__}')
 		script = False
 	if script == False:sys.exit()
 	else:pass
-	VDH_TOOL.home()
+	PTS_TOOL.home()
 
 
 if __name__ == '__main__':
