@@ -14,8 +14,8 @@
 
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
 
-* ```git clone https://github.com/sondeptraicute/athenaddos```
-* ```cd AthenaDDos```
+* ```git clone https://github.com/sondeptraicute/athena```
+* ```cd athena```
 * ```sh start.sh```
 
 
